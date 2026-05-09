@@ -27,7 +27,9 @@ elif choice == 2:
 
 else:
     print("Invalid input for shipping.")
+    exit()
 
+# USER CHOOSE : 03
 print("\n1. Priority"
       "\n2. Express"
       "\n3. Standard")
@@ -42,10 +44,12 @@ elif transport == 2:
     print(f"Express transport will cost you ${transport_charges}")
 
 elif transport == 3:
+    transport_charges = 0
     print("Standard transport is free.")
 
 else:
     print("Invalid input for transport.")
+    exit()
 
 total = rate + delivery_charges + transport_charges
 
