@@ -17,8 +17,6 @@ def addBonus(marks):
             sum = 100
         result.append(sum)
     return result
-    
-
 
 def average_Marks(marks):
     total = 0
